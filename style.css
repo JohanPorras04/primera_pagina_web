@@ -1,13 +1,18 @@
+body{
+    background-image: url(img/banner2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;;
+    background-size: cover;
+
+}
+
 .titulo{
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     font-weight: 600;
     text-align: center;
     color: blue;
-}
-.img-banner{
-    width: auto;
-    height: 300px;
 }
 .p-sub{
     text-align: center;
