@@ -4,7 +4,7 @@ body{
 .fondo{
     background: linear-gradient(rgba(2,0,7,0.4), rgba(2,0,7,0.4)), url(img/banner2.jpg);
     /*background-image: url(img/banner2.jpg);*/
-    height: 400px;
+    height: 50vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,9 @@ body{
     color: white;
     font-family: cursive;
 }
-
+.contenedor{
+    display: flex;
+}
 .caja1{
     padding: 10px;
     margin: 30px;
@@ -26,6 +28,8 @@ body{
     background-color: coral;
     border: 5px solid pink;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px 10px black;
+
 }
 .imagen-arriba{
     padding: 20px;
@@ -50,6 +54,7 @@ body{
     background-color: yellowgreen;
     border: 5px solid yellow;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px 10px black;
 }
 .imagen-arriba2{
     padding: 20px;
@@ -65,4 +70,11 @@ body{
 }
 .h1-caja2{
     text-align: center;
+}
+p{
+    margin: 20px;
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(6, 31, 31);
+    font-family: monospace;
 }
