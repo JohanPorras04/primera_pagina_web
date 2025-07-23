@@ -1,19 +1,24 @@
 body{
-    background-image: url(img/banner2.jpg);
+    margin: 0;
+}
+.fondo{
+    background: linear-gradient(rgba(2,0,7,0.4), rgba(2,0,7,0.4)), url(img/banner2.jpg);
+    /*background-image: url(img/banner2.jpg);*/
+    height: 400px;
     background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;;
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 .titulo{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    font-weight: 600;
     text-align: center;
-    color: blue;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-family: cursive;
 }
+
+
 .p-sub{
     text-align: center;
 }
