@@ -71,6 +71,32 @@ body{
 .h1-caja2{
     text-align: center;
 }
+.caja3{
+    padding: 10px;
+    margin: 30px;
+    height: 700px;
+    width: 380px;
+    background-color: coral;
+    border: 5px solid pink;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 10px black;
+
+}
+.imagen-arriba3{
+    padding: 20px;
+    margin: auto;
+    background-image: url(https://www.superherodb.com/pictures2/portraits/10/050/19530.jpg?v=1637539200);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border-radius: 100%;
+}
+.h1-caja3{
+    text-align: center;
+}
 p{
     margin: 20px;
     text-align: justify;
