@@ -1,9 +1,14 @@
+
 body{
     margin: 0;
+    padding: 0;
+    background: linear-gradient(skyblue,purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .fondo{
     background: linear-gradient(rgba(2,0,7,0.4), rgba(2,0,7,0.4)), url(img/banner2.jpg);
-    /*background-image: url(img/banner2.jpg);*/
     height: 50vh;
     background-position: center;
     background-size: cover;
@@ -102,5 +107,27 @@ p{
     text-align: justify;
     font-size: 15px;
     color: rgb(6, 31, 31);
-    font-family: monospace;
+    font-family: sans-serif;
+}
+.login-caja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.login-form{ 
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 10px black;
+}
+.login-titulo{
+    text-align: center;
+    font-size: 30px;
+}
+input{
+    display: block;
+    margin: 15px;
+    border-color: orange;
 }
